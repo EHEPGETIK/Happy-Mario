@@ -272,7 +272,7 @@ img {
     font-family: "Press Start 2P";
     text-align: center;
     display: flex;
-    padding: 166px 0 50px 0;
+    padding: 8.64583333333333vw 0 50px 0;
     column-gap: 10vw;
 }
 
@@ -281,12 +281,11 @@ img {
     background-color: #000000;
     font-size: 24rem;
     text-decoration: none;
-    padding: 40px 0;
+    padding: 40px 40px;
     width: 30vw;
     display: inline-block;
     font-weight: 400;
-    top: 50px;
-    position: relative;
+    margin-top: 30px;
 }
 
 .lbm a:hover {
@@ -303,8 +302,7 @@ img {
 
 .onetwo {}
 
-.twone {
-}
+.twone {}
 
 .twone h2 {
     color: #000;
@@ -336,7 +334,7 @@ img {
 }
 
 .zp img {
-    margin-bottom:100px; 
+    margin-bottom: 6vw;
 }
 
 .zp h2 {
@@ -345,13 +343,13 @@ img {
     font-weight: 400;
     font-family: "Press Start 2P";
     text-align: center;
-    padding: 100px 0 100px;
-    margin: 0; 
+    padding: 6vw 0 6vw;
+    margin: 0;
 }
 
 .end {
     background-color: #cb4f0f;
-    padding-bottom: 103px;
+    padding: 6vw 0 6vw 0;
 }
 
 .end .flex {
@@ -364,7 +362,7 @@ img {
     font-weight: 400;
     font-family: "Press Start 2P";
     margin: 0;
-    padding: 118px 0 68px;
+    padding: 6vw 0 4vw;
     text-align: center;
 }
 
@@ -373,6 +371,11 @@ img {
     color: #000000;
     font-weight: 400;
     font-family: Arial;
+}
+
+.last {
+    min-width: 200px;
+    justify-content: center;
 }
 
 .the-end {
@@ -391,6 +394,7 @@ img {
     color: #ffffff;
     font-weight: 400;
     font-family: "Press Start 2P";
+    min-width: 200px;
 }
 
 .the-end a {
@@ -399,7 +403,9 @@ img {
     font-weight: 400;
     font-family: "Press Start 2P";
     text-decoration: none;
+    min-width: 171px;
 }
+
 .the-end a:hover {
     color: #cb4f0f;
 }
@@ -427,7 +433,6 @@ img {
 
 .one {
     background-color: #ffffff;
-    height: 99px;
     font-size: 40rem;
     color: #000000;
     font-weight: 400;
@@ -456,10 +461,10 @@ img {
     color: #000000;
     font-weight: 400;
     font-family: "Press Start 2P";
-    min-width: 30vw;
-    padding: 50px 0;
+    min-width: 22vw;
+    padding: 47px 64px;
     background-color: #cb4f0f;
-    display: block;
+    display: inline-block;
     text-decoration: none;
     text-align: center;
 }
@@ -471,7 +476,7 @@ img {
 }
 
 @media screen and (max-width: 1920px) {
-    html{
+    html {
         font-size: 0.7px;
     }
 }
@@ -480,22 +485,27 @@ img {
     html {
         font-size: 0.5px;
     }
-    .had{
+
+    .had {
         flex-wrap: wrap;
         row-gap: 25px;
         justify-content: center;
     }
-    .header h1{
+
+    .header h1 {
         max-width: 100%;
         text-align: center;
     }
+
     .lbm {
         flex-wrap: wrap;
         margin-bottom: 80px;
     }
+
     .ph {
         flex-wrap: wrap;
     }
+
     .all {
         flex-wrap: wrap;
         row-gap: 25px;
@@ -506,22 +516,55 @@ img {
     .ggg {
         flex-wrap: wrap;
     }
+
     .twone {
         font-size: 30%;
     }
 }
 
 @media screen and (max-width: 630px) {
+    .the-end .dgl {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
     .price {
         flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 5px;
     }
-    html{
+
+    .price img {
+        max-width: 11.09375vw;
+    }
+
+    .twone h2 {
+        text-align: center;
+    }
+
+    html {
         font-size: 0.35px;
+    }
+    .end .flex {
+        flex-wrap: wrap;
+        align-items: start;
+        column-gap: 20px;
+        justify-content: center;
     }
 }
 
 @media screen and (max-width:510px) {
-    .end li {
-        flex-wrap: wrap;
+    .thre {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .shop a {
+        max-width: 120px;
+    }
+
+    .cwm h2 {
+        font-size: 50rem;
     }
 }
